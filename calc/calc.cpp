@@ -9,17 +9,17 @@
 int main() {
     int x = 0, y = 0;
 
-    printf("Ã¹¹øÂ° ¼ıÀÚ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("ì²«ë²ˆì§¸ ìˆ«ì ì…ë ¥í•˜ì„¸ìš”: ");
     scanf("%d", &x);
-    printf("µÎ¹øÂ° ¼ıÀÚ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("ë‘ë²ˆì§¸ ìˆ«ì ì…ë ¥í•˜ì„¸ìš”: ");
     scanf("%d", &y);
 
 	printf("x = %d y = %d\n", x, y);
 
     printf("%d + %d = %d\n", x, y, sum(x, y));
-    printf("%d - %d = %d\n", x, y, min(x, y));
+    printf("%d - %d = %d\n", x, y, sub(x, y));
     printf("%d x %d = %d\n", x, y, mul(x, y));
-    printf("%d ¡À %d = %d\n", x, y, div(x, y));
+    printf("%d Ã· %d = %d\n", x, y, dive(x, y));
 	printf("%d %% %d = %d\n", x, y, mod(x, y));
 
     return 0;
